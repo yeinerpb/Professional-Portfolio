@@ -1,7 +1,7 @@
 /*======= scroll reveal ========*/
 ScrollReveal({
     reset: true,
-    distance: "5px",
+    distance: "9px",
     duration: 2000,
     delay: 200,
 });

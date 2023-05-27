@@ -519,7 +519,7 @@ span {
   position: relative;
   position: fixed; /* fija la posición del botón */
   bottom: 20px; /* distancia desde el borde inferior de la pantalla */
-  right: 20px; /* distancia desde el borde derecho de la pantalla */
+  right: 30px; /* distancia desde el borde derecho de la pantalla */
 }
 
 .footer-iconTop a i {
