@@ -1,7 +1,7 @@
 /*======= scroll reveal ========*/
 ScrollReveal({
     reset: true,
-    distance: "9px",
+    distance: "20px",
     duration: 2000,
     delay: 200,
 });
@@ -13,5 +13,5 @@ ScrollReveal().reveal(
 );
 ScrollReveal().reveal(".home-content h1, .about-img img", { origin: "left" });
 ScrollReveal().reveal(".home-content h3, .home-content p, .about-content, .about", {
-    origin: "right",
+    origin: "left",
 });
