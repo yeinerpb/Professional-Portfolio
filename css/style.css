@@ -728,7 +728,7 @@ span {
 
   .home .profession-container .overlay {
     position: fixed;
-    top: 43rem;
+    top: 45rem;
     left: 50%;
     right: 0;
     transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
@@ -778,6 +778,10 @@ span {
     padding: 0 3% 30rem;
   }
 
+  .home .profession-container .overlay {
+    top: 58rem;
+  }
+
   .home .profession-box .profession:nth-child(1) {
     transform: rotate(-60deg) translate(-30px, -275px);
   }
@@ -805,11 +809,15 @@ span {
   .contact form .input-box input {
     width: 100%;
   }
+
+  .about {
+    padding: .5rem 0;
+  }
 }
 
 @media (max-width: 365px) {
   .about-img img {
-    width: 90vw;
+    width: 100vw;
   }
 
   .footer {
