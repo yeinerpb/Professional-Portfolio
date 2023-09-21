@@ -18,6 +18,28 @@
     --white-color: #fffefe;
 }
 
+.flags {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: fixed;
+  top: 50%; /* Ajusta la posición vertical según tus preferencias */
+  right: 10px; /* Ajusta la posición horizontal según tus preferencias */
+  transform: translateY(-50%);
+  z-index: 1; 
+}
+
+.flags-item {
+  margin-bottom: 10px; /* Espacio entre las opciones */
+  cursor: pointer;
+}
+
+.flags img {
+  width: 30px; /* Ajusta el tamaño de las banderas según tu preferencia */
+  height: auto;
+}
+
+
 .dark-mode {
     --bg-color: #272b3a;
     --text-color: #fffefe;
@@ -287,7 +309,7 @@ section {
   pointer-events: none;
 }
 
-span {
+.title {
   color: var(--main-color);
 }
 

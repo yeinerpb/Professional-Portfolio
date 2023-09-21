@@ -13,20 +13,34 @@
     <!-- css -->
     <link rel="stylesheet" href="css/style.css" />
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap">
 </head>
 
 <body>
+    <!-- Language select -->
+    <div id="flags" class="flags">
+        <div class="flags-item" data-language="es">
+            <img src="/images/es.svg" alt="">
+        </div>
+        <div class="flags-item" data-language="en">
+            <img src="/images/us.svg" alt="">
+        </div>
+        <div class="flags-item" data-language="pt">
+            <img src="/images/pt.svg" alt="">
+        </div>
+
+    </div>
     <!-- Header desing -->
     <header class="header">
-        <a href="#" class="logo">Yeiner</a>
+        <a href="#" class="logo" data-translate="Yeiner">Yeiner</a>
 
         <nav class="navbar">
-            <a href="#home" class="active">Inicio</a>
-            <a href="#portfolio">Portafolio</a>
-            <a href="#about">Sobre Mi</a>
-            <a href="#services">Servicios</a>
-            <a href="#contact">Contacto</a>
+            <a href="#home" class="active" data-translate="Inicio">Inicio</a>
+            <a href="#portfolio" data-translate="Portafolio">Portafolio</a>
+            <a href="#about" data-translate="Sobre Mi">Sobre Mi</a>
+            <a href="#services" data-translate="Servicios">Servicios</a>
+            <a href="#contact" data-translate="Contacto">Contacto</a>
         </nav>
         <div class="bx bx-moon" id="darkMode-icon"></div>
         <div class="bx bx-menu" id="menu-icon"></div>
@@ -35,14 +49,14 @@
     <!-- home section desing -->
     <section id="home" class="home">
         <div class="home-content">
-            <h3>Hola, Soy</h3>
+            <h3 data-translate="HolaSoy">Hola, Soy</h3>
             <h1>Yeiner Parra</h1>
             <p>
-                Desarrollador web <strong>Full-Stack</strong>. Me especializo en
-                crear aplicaciones web de alta calidad y rendimiento utilizando
-                tecnologías modernas.
+                <span data-translate="DescripcionFullStack1">Desarrollador web</span>
+                <strong><span data-translate="DescripcionFullStack2">Full-Stack.</span></strong>
+                <span data-translate="DescripcionFullStack3"> Me especializo en crear aplicaciones web de alta calidad y
+                    rendimiento utilizando tecnologías modernas.</span>
             </p>
-
 
             <div class="social-media">
                 <a href="https://github.com/yeinerpb"><i class='bx bxl-github'></i></a>
@@ -50,35 +64,36 @@
                 <a href="https://www.linkedin.com/in/yeiner-parra-bernal/"><i class='bx bxl-linkedin'></i></a>
                 <a href="#contact"><i class='bx bx-envelope'></i></a>
             </div>
-            <a href="CVYeinerParraEspañol.pdf" download="CV-Yeiner-Parra.pdf" class="btn">Descargar CV</a>
+            <a href="CVYeinerParraEspañol.pdf" download="CV-Yeiner-Parra.pdf" class="btn"
+                data-translate="DescargarCV">Descargar CV</a>
         </div>
 
         <div class="profession-container">
             <div class="profession-box">
                 <div class="profession" style="--i:0;">
                     <i class='bx bxl-javascript'></i>
-                    <h3>JavaScript</h3>
+                    <h3 data-translate="JavaScript">JavaScript</h3>
                 </div>
                 <div class="profession" style="--i:1;">
                     <i class='bx bxl-html5'></i>
-                    <h3>HTML</h3>
+                    <h3 data-translate="HTML">HTML</h3>
                 </div>
                 <div class="profession" style="--i:2;">
                     <i class='bx bxl-css3'></i>
-                    <h3>Css-3
+                    <h3 data-translate="CSS3">Css-3
                     </h3>
                 </div>
                 <div class="profession" style="--i:3;">
                     <i class='bx bxl-react'></i>
-                    <h3>ReactJS</h3>
+                    <h3 data-translate="ReactJS">ReactJS</h3>
                 </div>
                 <div class="profession" style="--i:4;">
                     <i class='bx bxl-nodejs'></i>
-                    <h3>NodeJs</h3>
+                    <h3 data-translate="NodeJs">NodeJs</h3>
                 </div>
                 <div class="profession" style="--i:5;">
                     <i class='bx bxl-angular'></i>
-                    <h3>Angular</h3>
+                    <h3 data-translate="Angular">Angular</h3>
                 </div>
 
                 <div class="circle"></div>
@@ -92,53 +107,60 @@
         </div>
     </section>
 
+
     <!-- portfolio section desing -->
     <section class="portfolio" id="portfolio">
-        <h2 class="heading">Mis <span>Proyectos</span></h2>
+        <h2 class="heading"><span data-translate="MisProyectos">Mis</span> <span class="title"
+                data-translate="Proyectos">Proyectos</span></h2>
 
         <div class="portfolio-container">
             <div class="portfolio-box">
                 <img src="images/pokemon.jpg" alt="">
-
                 <div class="portfolio-layer">
-                    <h4>Pokedex</h4>
-                    <p><strong>React:</strong> Muestra los avatares por su id, nombre y también
-                        filtrar por tipo. Cada avatar tiene sus características.</p>
-                    <a href="https://pokeapiypb.netlify.app/" target="_blank" rel="noopener noreferrer"><i class='bx bx-link-external'></i></a>
+                    <h4 data-translate="Pokedex">Pokedex</h4>
+                    <p><strong>React:</strong> <span data-translate="DescripcionPokedex">Muestra
+                            los avatares por su id, nombre y también filtrar por tipo. Cada avatar tiene sus
+                            características.</span></p>
+                    <a href="https://pokeapiypb.netlify.app/" target="_blank" rel="noopener noreferrer"><i
+                            class='bx bx-link-external'></i></a>
                 </div>
             </div>
             <div class="portfolio-box">
                 <img src="images/rickandmorty.jpg" alt="">
-
                 <div class="portfolio-layer">
                     <h4>Rick and Morty</h4>
-                    <p><strong>React:</strong> Muestran los personajes de la serie y permite
-                        buscar por ID, tipo o ubicación. Cada personaje tiene sus
-                        respectivas características.</p>
-                    <a href="https://rick-and-morty-yeiner.netlify.app/" target="_blank" rel="noopener noreferrer"><i class='bx bx-link-external'></i></a>
+                    <p><strong>React:</strong> <span
+                            data-translate="DescripcionRickMorty">Muestran los personajes de la serie y permite
+                            buscar por ID, tipo o ubicación. Cada personaje tiene sus respectivas
+                            características.</span></p>
+                    <a href="https://rick-and-morty-yeiner.netlify.app/" target="_blank" rel="noopener noreferrer"><i
+                            class='bx bx-link-external'></i></a>
                 </div>
             </div>
             <div class="portfolio-box">
                 <img src="images/e-commerce.png" alt="">
-
                 <div class="portfolio-layer">
-                    <h4>Restaurant API</h4>
-                    <p><strong>NodeJs:</strong> En esta API permite por medio de un usuario protegido con JWT la creación de
-                        restaurantes y comidas.</p>
-                    <a href="https://documenter.getpostman.com/view/20378066/2s9Xy5LpuN" target="_blank" rel="noopener noreferrer"><i class='bx bx-link-external'></i></a>
+                    <h4 data-translate="RestaurantAPI">Restaurant API</h4>
+                    <p><strong data-translate="NodeJs">NodeJs:</strong> <span
+                            data-translate="DescripcionRestaurantAPI">En esta API permite por medio de un usuario
+                            protegido con JWT la creación de restaurantes y comidas.</span></p>
+                    <a href="https://documenter.getpostman.com/view/20378066/2s9Xy5LpuN" target="_blank"
+                        rel="noopener noreferrer"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
             <div class="portfolio-box">
                 <img src="images/rest-countries.png" alt="">
-
                 <div class="portfolio-layer">
-                    <h4>App Paises</h4>
-                    <p><strong>Angular:</strong> Permite buscar un pais por su nombre o capital para entregar una
-                        información completa, o buscar por región.</p>
-                    <a href="https://64dabcd470fc310072e022b6--countriesappypb.netlify.app/" target="_blank" rel="noopener noreferrer"><i class='bx bx-link-external'></i></a>
+                    <h4>App Countries</h4>
+                    <p><strong>Angular:</strong> <span
+                            data-translate="DescripcionAppPaises">Permite buscar un pais por su nombre o capital para
+                            entregar una información completa, o buscar por región.</span></p>
+                    <a href="https://64dabcd470fc310072e022b6--countriesappypb.netlify.app/" target="_blank"
+                        rel="noopener noreferrer"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
         </div>
+
     </section>
 
     <!-- about section desing -->
@@ -148,19 +170,19 @@
         </div>
 
         <div class="about-content">
-            <h2 class="heading">Sobre <span>Mí</span></h2>
-            <h3>Te ayudo con el desarrollo de aplicaciones web.</h3>
-            <p>Comprometido a seguir aprendiendo y creciendo en mi carrera en el
+            <h2 class="heading"><span data-translate="Sobre">Sobre</span><span class="title" data-translate="Mi">Mí</span></h2>
+            <h3 data-translate="Ayuda">Te ayudo con el desarrollo de aplicaciones web.</h3>
+            <p data-translate="DescripcionSobreMi">Comprometido a seguir aprendiendo y creciendo en mi carrera en el
                 desarrollo web. Estoy listo y emocionado de trabajar en equipo y
                 colaborar con otros desarrolladores y diseñadores para crear
                 soluciones innovadoras y superar los desafíos que se presenten.</p>
-            <a href="options/about.html" class="btn">Leer Más</a>
+            <a href="options/about.html" class="btn" data-translate="Leer Mas">Leer Más</a>
         </div>
     </section>
 
     <!-- services section desing -->
     <section class="services" id="services">
-        <h2 class="heading">Mis <span>Servicios</span></h2>
+        <h2 class="heading">Mis <span class="title">Servicios</span></h2>
 
         <div class="services-container">
             <div class="services-box">
@@ -170,7 +192,8 @@
                     aplicaciones
                     web dinámicas y escalables. Me apasiona crear soluciones innovadoras y eficientes que resuelvan
                     problemas reales y generen valor para los usuarios. </p>
-                <a href="https://certificates.academlo.com/en/verify/45202131179369?ref=email" target="_blank" rel="noopener noreferrer" class="btn">Certificado</a>
+                <a href="https://certificates.academlo.com/en/verify/45202131179369?ref=email" target="_blank"
+                    rel="noopener noreferrer" class="btn">Certificado</a>
             </div>
             <div class="services-box">
                 <i class='bx bx-code-alt'></i>
@@ -179,7 +202,8 @@
                     datos y la integración de servicios de aplicaciones web. Me interesa crear soluciones robustas,
                     seguras y eficientes que cumplan con los requisitos funcionales y no funcionales de los proyectos.
                 </p>
-                <a href="https://certificates.academlo.com/en/verify/32748984771393?ref" target="_blank" rel="noopener noreferrer" class="btn">Certificado</a>
+                <a href="https://certificates.academlo.com/en/verify/32748984771393?ref" target="_blank"
+                    rel="noopener noreferrer" class="btn">Certificado</a>
             </div>
             <div class="services-box">
                 <i class='bx bx-code-curly'></i>
@@ -187,7 +211,8 @@
                 <p>Desarrollador frontend con experiencia en diseño, desarrollo e implementación de interfaces web
                     atractivas y responsivas. Me gusta crear experiencias de usuario que sean intuitivas, accesibles y
                     adaptadas a las necesidades y preferencias de cada cliente.</p>
-                <a href="https://certificates.academlo.com/en/verify/78208451078887?ref" target="_blank" rel="noopener noreferrer" class="btn">Certificado</a>
+                <a href="https://certificates.academlo.com/en/verify/78208451078887?ref" target="_blank"
+                    rel="noopener noreferrer" class="btn">Certificado</a>
             </div>
         </div>
     </section>
@@ -195,7 +220,7 @@
     <!-- contact section desing -->
 
     <section class="contact" id="contact">
-        <h2 class="heading">Mi <span>Contacto</span></h2>
+        <h2 class="heading">Mi <span class="title">Contacto</span></h2>
 
         <form method="post" action="method=" post" action="https://formspree.io/f/xqknjqyz">
             <div class="input-box">
@@ -230,6 +255,7 @@
     <script src="js/scroll-reveal.js"></script>
     <script src="js/theme.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/languages.js"></script>
 </body>
 
 </html>
