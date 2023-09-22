@@ -50,6 +50,11 @@
         "Asunto": "Subject",
         "TuMensaje": "Your Message",
         "EnviarMensaje": "Send Message",
-        "DerechosAutor": "Copyright &copy; 2023 | Yeiner Parra."
+        "DerechosAutor": "Copyright &copy; 2023 | Yeiner Parra.",
+        "Quien": "Who",
+        "Soy": "I am?",
+        "Parrafo1": "Web developer passionate about creating innovative and functional web applications. My interest in programming began in January 2021, when I decided to train myself in the most in-demand technologies on the market. In 2022, I took the Academlo bootcamp for 8 months, where I learned",
+        "Pärrafo1-2": "Then I continued my training on my own, where I learned TypeScript, Angular and Bootstrap 5.",
+        "Parrafo2": "My work style is characterized by being creative, dynamic and quality-oriented. I like to be up to date with the latest trends and tools in web development and apply them in my projects. I easily adapt to the needs and preferences of each client, offering personalized solutions and efficient."
     }
 }
