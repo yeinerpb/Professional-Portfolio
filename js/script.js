@@ -40,14 +40,14 @@ window.onscroll = () => {
 
 
 /*======= bottom top ========*/
-window.addEventListener('load', function() {
+window.addEventListener('load', function () {
     let scrollToTop = document.getElementById('scrollToTop');
     if (window.pageYOffset === 0) {
         scrollToTop.style.display = 'none';
     }
 });
 
-window.addEventListener('scroll', function() {
+window.addEventListener('scroll', function () {
     let scrollToTop = document.getElementById('scrollToTop');
     if (window.pageYOffset > 0) {
         scrollToTop.style.display = 'block';
@@ -55,5 +55,30 @@ window.addEventListener('scroll', function() {
         scrollToTop.style.display = 'none';
     }
 });
+
+/*======= CV ========*/
+function selectCV() {
+    Swal.fire({
+        title: 'Selecciona el idioma del CV',
+        showDenyButton: true,
+        showCancelButton: true,
+        confirmButtonText: 'Español',
+        denyButtonText: 'Inglés',
+        cancelButtonText: 'Portugués',
+    }).then((result) => {
+        var cvPath;
+        if (result.isConfirmed) {
+            cvPath = "CVYeinerParraEspanol.pdf";
+        } else if (result.isDenied) {
+            cvPath = "CVYeinerParraEnglish.pdf";
+        } else if (result.isDismissed && result.dismiss !== Swal.DismissReason.backdrop) {
+            cvPath = "CVYeinerParraPortugues.pdf";
+        }
+        if (cvPath) {
+            window.open(cvPath, '_blank');
+        }
+    })
+    event.preventDefault();
+}
 
 
