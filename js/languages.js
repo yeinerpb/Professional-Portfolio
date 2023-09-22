@@ -4,6 +4,7 @@ var currentLanguage = "es";
 // Función que cambia el idioma actual
 function changeLanguage (language) {
   currentLanguage = language;
+  localStorage.setItem("selectedLanguage", language);
 }
 
 // Función que carga el archivo json correspondiente al idioma actual y reemplaza el contenido de los elementos HTML
@@ -25,7 +26,7 @@ function loadLanguage () {
         if (element.tagName === "INPUT" && element.placeholder) {
           element.placeholder = data.translation [key];
         }
-        
+
         if (element.tagName === "INPUT" && element.type === "submit") {
           element.value = data.translation [key];
         }
