@@ -35,19 +35,21 @@
         "Ayuda": "I help you with the development of web applications.",
         "DescripcionSobreMi": "Committed to continuing to learn and grow in my web development career. I'm ready and excited to work as part of a team and collaborate with other developers and designers to create innovative solutions and overcome challenges.",
         "Leer Mas": "Read More",
-        "MisServicios": "My Services",
+        "MisServicios": "My",
         "FullStack": "Full-Stack",
         "DescripcionFullStackDetalle": "Full-stack developer with experience in designing, developing, and implementing dynamic and scalable web applications. I'm passionate about creating innovative and efficient solutions that solve real problems and provide value to users.",
         "BackEnd": "Back-End",
         "DescripcionBackEnd": "Backend developer with experience in logic development, data management, and integration of web application services. I'm interested in creating robust, secure, and efficient solutions that meet both functional and non-functional project requirements.",
         "FrontEnd": "Front-End",
         "DescripcionFrontEnd": "Frontend developer with experience in designing, developing, and implementing attractive and responsive web interfaces. I enjoy creating user experiences that are intuitive, accessible, and tailored to the needs and preferences of each client.",
-        "MiContacto": "Contact Me",
+        "Certificado": "Certificate",
+        "MiContacto": "My",
         "NombreCompleto": "Full Name",
         "Email": "Email",
         "Telefono": "Phone",
         "Asunto": "Subject",
         "TuMensaje": "Your Message",
+        "EnviarMensaje": "Send Message",
         "DerechosAutor": "Copyright &copy; 2023 | Yeiner Parra."
     }
 }

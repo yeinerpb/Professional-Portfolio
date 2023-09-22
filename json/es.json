@@ -35,19 +35,21 @@
         "Ayuda": "Te ayudo con el desarrollo de aplicaciones web.",
         "DescripcionSobreMi": "Comprometido a seguir aprendiendo y creciendo en mi carrera en el desarrollo web. Estoy listo y emocionado de trabajar en equipo y colaborar con otros desarrolladores y diseñadores para crear soluciones innovadoras y superar los desafíos que se presenten.",
         "Leer Mas": "Leer Más",
-        "MisServicios": "Mis Servicios",
+        "MisServicios": "Mis",
         "FullStack": "Full-Stack",
         "DescripcionFullStackDetalle": "Desarrollador full-stack con experiencia en el diseño, desarrollo e implementación de aplicaciones web dinámicas y escalables. Apasionado por crear soluciones innovadoras y eficientes que resuelvan problemas reales y generen valor para los usuarios.",
         "BackEnd": "Back-End",
         "DescripcionBackEnd": "Backend con experiencia en el desarrollo de la lógica, la gestión de datos y la integración de servicios de aplicaciones web. Interesado en crear soluciones robustas, seguras y eficientes que cumplan con los requisitos funcionales y no funcionales de los proyectos.",
         "FrontEnd": "Front-End",
         "DescripcionFrontEnd": "Desarrollador frontend con experiencia en diseño, desarrollo e implementación de interfaces web atractivas y responsivas. Gusta de crear experiencias de usuario intuitivas, accesibles y adaptadas a las necesidades y preferencias de cada cliente.",
-        "MiContacto": "Mi Contacto",
+        "Certificado": "Certificado",
+        "MiContacto": "Mi",
         "NombreCompleto": "Nombre Completo",
         "Email": "E-mail",
         "Telefono": "Teléfono",
         "Asunto": "Asunto",
         "TuMensaje": "Tu Mensaje",
+        "EnviarMensaje": "Enviar Mensaje",
         "DerechosAutor": "Copyright &copy; 2023 | Yeiner Parra."
     }
 }
