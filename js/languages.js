@@ -1,5 +1,5 @@
 // Variable global que almacena el idioma actual
-var currentLanguage = "es";
+let currentLanguage;
 
 // Función que cambia el idioma actual
 function changeLanguage (language) {
@@ -9,6 +9,9 @@ function changeLanguage (language) {
 
 // Función que carga el archivo json correspondiente al idioma actual y reemplaza el contenido de los elementos HTML
 function loadLanguage () {
+  // Recuperamos el idioma seleccionado del almacenamiento local
+  currentLanguage = localStorage.getItem("selectedLanguage");
+  
   console.log("Cargando idioma...");
   // Usamos fetch para obtener el archivo json
   fetch (`/json/${currentLanguage}.json`)
