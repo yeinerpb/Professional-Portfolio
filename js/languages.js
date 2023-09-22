@@ -21,6 +21,14 @@ function loadLanguage () {
         let key = element.dataset.translate;
         // Reemplazamos el contenido del elemento por el valor correspondiente del json
         element.innerHTML = data.translation [key];
+
+        if (element.tagName === "INPUT" && element.placeholder) {
+          element.placeholder = data.translation [key];
+        }
+        
+        if (element.tagName === "INPUT" && element.type === "submit") {
+          element.value = data.translation [key];
+        }
       }
     })
     .catch (error => console.error (error)); // Manejamos posibles errores
