@@ -1,0 +1,52 @@
+:root {
+    --bg-color: #fffefe;
+    --text-color: #272b3a;
+    --main-color: #e5472b;
+    --white-color: #fffefe;
+}
+
+
+
+/* Cambiar el color de los botones */
+.swal2-popup .swal2-confirm, .swal2-popup .swal2-deny, .swal2-popup .swal2-cancel {
+    background-color: #e5472b ;
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.6rem;
+    box-shadow: 0 0.1rem 0.2rem #e5472b;
+    font-size: 1rem;
+    color: #fffefe;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    border: 0.1rem solid #e5472b;
+    transition: 0.5s ease;
+    
+}
+
+.swal2-popup .swal2-confirm:hover, .swal2-popup .swal2-deny:hover, .swal2-popup .swal2-cancel:hover {
+    background: transparent;
+    color: var(--main-color);
+    border: 0.1rem solid var(--main-color);
+}
+
+.swal2-popup .swal2-confirm:focus, .swal2-popup .swal2-deny:focus, .swal2-popup .swal2-cancel:focus {
+    outline: none;
+    box-shadow: 0 0.1rem 0.2rem #e5472b;
+}
+
+/* Cambiar el borde del modal */
+.swal2-popup {
+    border: 1px solid var(--main-color); /* Reemplaza #yourColor con el color que desees */
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: #272b3a;
+    border-radius: 0.6rem;
+    box-shadow: 0 0.2rem 0.3rem var(--main-color);
+    font-size: 1rem;
+    color: var(--white-color);
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    border: 0.1rem solid var(--main-color);
+    transition: 0.5s ease;
+}
+

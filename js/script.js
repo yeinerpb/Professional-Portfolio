@@ -66,7 +66,7 @@ function selectCV() {
         denyButtonText: 'English',
         cancelButtonText: 'Português',
     }).then((result) => {
-        var cvPath;
+        let cvPath;
         if (result.isConfirmed) {
             cvPath = "CVYeinerParraEspanol.pdf";
         } else if (result.isDenied) {
