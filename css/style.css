@@ -835,6 +835,12 @@ section {
   .contact form .input-box input {
     width: 100%;
   }
+
+  .flags  {
+    top: 15%;
+    right: 1%;
+  }
+  
   .flags img {
     width: 18px; /* Ajusta el tamaño de las banderas según tu preferencia */
     height: auto;
@@ -850,6 +856,11 @@ section {
   .footer p {
     text-align: center;
     margin-top: 1.5rem;
+  }
+
+  .flags  {
+    top: 15%;
+    right: 1%;
   }
 
   .flags img {
