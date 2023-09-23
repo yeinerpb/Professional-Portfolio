@@ -63,8 +63,8 @@ function selectCV() {
         showDenyButton: true,
         showCancelButton: true,
         confirmButtonText: 'Español',
-        denyButtonText: 'Inglés',
-        cancelButtonText: 'Portugués',
+        denyButtonText: 'English',
+        cancelButtonText: 'Português',
     }).then((result) => {
         var cvPath;
         if (result.isConfirmed) {
