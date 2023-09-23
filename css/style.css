@@ -629,6 +629,16 @@ section {
   .footer {
     padding: 2rem 3%;
   }
+
+  .flags  {
+    top: 6%;
+    right: 0;
+  }
+  
+  .flags img {
+    width: 18px; /* Ajusta el tamaño de las banderas según tu preferencia */
+    height: auto;
+  }
 }
 
 @media (max-width: 768px) {
@@ -719,7 +729,7 @@ section {
   }
 
   .home .profession-box .profession:nth-child(1) {
-    transform: rotate(120deg) translate(-120px, -410px);
+    transform: rotate(120deg) translate(-95px, -390px);
   }
 
   .home .profession-box .profession:nth-child(1) i {
@@ -727,11 +737,11 @@ section {
   }
 
   .home .profession-box .profession:nth-child(2) {
-    transform: rotate(-180deg) translate(-100px, -335px);
+    transform: rotate(-180deg) translate(-125px, -335px);
   }
 
   .home .profession-box .profession:nth-child(3) {
-    transform: rotate(239deg) translate(-75px, -280px);
+    transform: rotate(240deg) translate(-110px, -260px);
   }
 
   .home .profession-box .profession:nth-child(4) {
@@ -783,11 +793,31 @@ section {
   .portfolio .portfolio-container {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .flags  {
+    top: 20%;
+    right: 5%;
+  }
+  
+  .flags img {
+    width: 18px; /* Ajusta el tamaño de las banderas según tu preferencia */
+    height: auto;
+  }
 }
 
 @media (max-width: 617px) {
   .portfolio .portfolio-container {
     grid-template-columns: 1fr;
+  }
+
+  .flags  {
+    top: 15%;
+    right: 1%;
+  }
+  
+  .flags img {
+    width: 18px; /* Ajusta el tamaño de las banderas según tu preferencia */
+    height: auto;
   }
 }
 
@@ -864,7 +894,7 @@ section {
   }
 
   .flags img {
-    width: 15px; /* Ajusta el tamaño de las banderas según tu preferencia */
+    width: 15px; 
     height: auto;
   }
 }
