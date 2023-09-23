@@ -18,19 +18,7 @@
 </head>
 
 <body>
-    <!-- Language select -->
-    <div id="flags" class="flags">
-        <div class="flags-item" data-language="es">
-            <img src="/images/es.svg" alt="">
-        </div>
-        <div class="flags-item" data-language="en">
-            <img src="/images/us.svg" alt="">
-        </div>
-        <div class="flags-item" data-language="pt">
-            <img src="/images/pt.svg" alt="">
-        </div>
-
-    </div>
+    
     <!-- Header desing -->
     <header class="header">
         <a href="#" class="logo" data-translate="Yeiner">Yeiner</a>
@@ -44,6 +32,19 @@
         </nav>
         <div class="bx bx-moon" id="darkMode-icon"></div>
         <div class="bx bx-menu" id="menu-icon"></div>
+        <!-- Language select -->
+    <div id="flags" class="flags">
+        <div class="flags-item" data-language="es">
+            Es <img src="/images/es.svg" alt="">
+        </div>
+        <div class="flags-item" data-language="en">
+            En <img src="/images/us.svg" alt="">
+        </div>
+        <div class="flags-item" data-language="pt">
+            Pt <img src="/images/pt.svg" alt="">
+        </div>
+
+    </div>
     </header>
 
     <!-- home section desing -->
@@ -228,24 +229,24 @@
         <h2 class="heading"><span data-translate="MiContacto">Mi</span> <span class="title"
                 data-translate="Contacto">Contacto</span></h2>
 
-        <form method="post" action="method=" post" action="https://formspree.io/f/xqknjqyz">
-            <div class="input-box">
-                <input type="text" placeholder="Nombre Completo" data-translate="NombreCompleto">
-                <input type="email" placeholder="E-mail" data-translate="Email">
-            </div>
-            <div class="input-box">
-                <input type="tel" placeholder="Teléfono" data-translate="Telefono">
-                <input type="text" placeholder="Asunto" data-translate="Asunto">
-            </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje" data-translate="TuMensaje"></textarea>
-            <input type="submit" value="Enviar Mensaje" class="btn" data-translate="EnviarMensaje">
-        </form>
+                <form method="post" action="https://formspree.io/f/xqknjqyz">
+                    <div class="input-box">
+                        <input type="text" name="name" placeholder="Nombre Completo" data-translate="NombreCompleto">
+                        <input type="email" name="_replyto" placeholder="E-mail" data-translate="Email">
+                    </div>
+                    <div class="input-box">
+                        <input type="tel" name="phone" placeholder="Teléfono" data-translate="Telefono">
+                        <input type="text" name="subject" placeholder="Asunto" data-translate="Asunto">
+                    </div>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Tu Mensaje" data-translate="TuMensaje"></textarea>
+                    <input type="submit" value="Enviar Mensaje" class="btn" data-translate="EnviarMensaje">
+                </form>                
     </section>
 
     <!-- footer design -->
     <footer class="footer">
         <div class="footer-text">
-            <p>Copyright &copy; 2023 | Yeiner Parra.</p>
+            <p>Copyright &copy; 2023 | Yeiner Parra | Cel: +573142281533</p>
         </div>
 
         <div class="footer-iconTop" id="scrollToTop">
