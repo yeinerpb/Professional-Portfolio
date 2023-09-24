@@ -23,19 +23,19 @@
   flex-direction: column;
   justify-content: flex-end;
   position: fixed;
-  top: 6%; /* Ajusta la posición vertical según tus preferencias */
-  right: 10px; /* Ajusta la posición horizontal según tus preferencias */
+  top: 6%; 
+  right: 10px; 
   transform: translateY(-50%);
   z-index: 1; 
 }
 
 .flags-item {
-  margin-bottom: 5px; /* Espacio entre las opciones */
+  margin-bottom: 5px; 
   cursor: pointer;
 }
 
 .flags img {
-  width: 22px; /* Ajusta el tamaño de las banderas según tu preferencia */
+  width: 22px; 
   height: auto;
 }
 
@@ -49,6 +49,7 @@ body {
     background: var(--bg-color);
     color: var(--text-color);
 }
+
 .header {
     position: fixed;
     top: 0;
@@ -67,12 +68,14 @@ body {
     box-shadow: 0 0.1rem 1rem var(--text-color);
 }
 
-.logo {
-    font-size: 2.3rem;
-    color: var(--main-color);
-    font-weight: 600;
-    cursor: default;
-    margin-right: auto;
+.logo img{
+  width: 4rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
 }
 
 .navbar a {
@@ -664,6 +667,12 @@ section {
     border-top: 0.1rem solid var(--text-color);
     box-shadow: 0 0.5rem 1rem var(--text-color);
     display: none;
+  }
+
+  .bx-menu, .bx-moon{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
   }
 
   .navbar.active {
