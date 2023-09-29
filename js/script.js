@@ -68,7 +68,7 @@ function selectCV() {
     }).then((result) => {
         let cvPath;
         if (result.isConfirmed) {
-            cvPath = "CVYeinerParraEspanol.pdf";
+            cvPath = "CVYeinerParraEspañol.pdf";
         } else if (result.isDenied) {
             cvPath = "CVYeinerParraEnglish.pdf";
         } else if (result.isDismissed && result.dismiss !== Swal.DismissReason.backdrop) {
