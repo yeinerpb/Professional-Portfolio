@@ -639,7 +639,7 @@ section {
   }
   
   .flags img {
-    width: 18px; /* Ajusta el tamaño de las banderas según tu preferencia */
+    width: 18px; 
     height: auto;
   }
 }
