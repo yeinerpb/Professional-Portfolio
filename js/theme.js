@@ -1,6 +1,7 @@
 /*======= Dark Mode ========*/
 let darkModeIcon = document.querySelector("#darkMode-icon");
-let darkMode = localStorage.getItem("darkMode"); // obtener el estado del tema del almacenamiento local
+// obtener el estado del tema del almacenamiento local
+let darkMode = localStorage.getItem("darkMode"); 
 
 if (darkMode === "true") {
     // si el tema es oscuro, aplicar las clases correspondientes
