@@ -8,7 +8,7 @@
     <title>Yeiner</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="images/favicon.png"/>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
 
     <!-- Box icon -->
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
@@ -24,7 +24,7 @@
 </head>
 
 <body>
-    
+
     <!-- Header desing -->
     <header class="header">
         <a href="/index.html#home" class="logo"><img src="../images/favicon.png" alt=""></a>
@@ -39,7 +39,7 @@
         <div class="bx bx-moon" id="darkMode-icon"></div>
         <div class="bx bx-menu" id="menu-icon"></div>
         <!-- Language select -->
-        <div id="flags" class="flags">
+        <!-- <div id="flags" class="flags">
             <div class="flags-item" data-language="es">
                 <img src="/images/es.svg" alt="">
             </div>
@@ -49,14 +49,13 @@
             <div class="flags-item" data-language="pt">
                 <img src="/images/pt.svg" alt="">
             </div>
-    
-        </div>
+        </div> -->
     </header>
 
     <!-- home section desing -->
     <section id="home" class="home">
         <div class="home-content">
-            
+
             <h1 class="">Yeiner Parra</h1>
             <p>
                 <span data-translate="DescripcionFullStack1">Desarrollador web</span>
@@ -67,12 +66,14 @@
 
             <div class="social-media">
                 <a href="https://github.com/yeinerpb" target="_blank"><i class='bx bxl-github'></i></a>
-                <a href="https://www.instagram.com/yeiner.pb/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://wa.me/3142281533" target="_blank"><i class='bx bxl-whatsapp'></i></a>
                 <a href="https://www.linkedin.com/in/yeinerpb/" target="_blank"><i class='bx bxl-linkedin'></i></a>
             </div>
 
-            <a href="#" download="CV-Yeiner-Parra.pdf" class="btn" data-translate="DescargarCV" id="downloadLink"
-                onclick="selectCV()">Descargar CV</a>
+            <a href="YeinerParraB.pdf" download="YeinerParraB.pdf" class="btn">Descargar CV</a>
+
+            <!-- <a href="#" download="CV-Yeiner-Parra.pdf" class="btn" data-translate="DescargarCV" id="downloadLink"
+                onclick="selectCV()">Descargar CV</a> -->
         </div>
 
         <div class="profession-container">
@@ -109,7 +110,7 @@
         </div>
 
         <div class="home-img">
-            
+
         </div>
     </section>
 
@@ -124,9 +125,9 @@
                 <img src="images/pokemon.jpg" alt="">
                 <div class="portfolio-layer">
                     <h4 data-translate="Pokedex">Pokedex</h4>
-                    <p><strong>React:</strong> <span data-translate="DescripcionPokedex">Muestra
-                            los avatares por su id, nombre y también filtrar por tipo. Cada avatar tiene sus
-                            características.</span></p>
+                    <p><strong>Css:</strong> <span data-translate="DescripcionPokedex">Estilización de una interfaz de
+                            avatares con CSS adaptativo, usando colores distintivos, tipografía personalizada y efectos
+                            de hover para mejorar la interacción en distintos dispositivos.</span></p>
                     <a href="https://pokeapiypb.netlify.app/" target="_blank" rel="noopener noreferrer"><i
                             class='bx bx-link-external'></i></a>
                 </div>
@@ -234,18 +235,19 @@
         <h2 class="heading"><span data-translate="MiContacto">Mi</span> <span class="title"
                 data-translate="Contacto">Contacto</span></h2>
 
-                <form method="post" action="https://formspree.io/f/xqknjqyz">
-                    <div class="input-box">
-                        <input type="text" name="name" placeholder="Nombre Completo" data-translate="NombreCompleto">
-                        <input type="email" name="_replyto" placeholder="E-mail" data-translate="Email">
-                    </div>
-                    <div class="input-box">
-                        <input type="tel" name="phone" placeholder="Teléfono" data-translate="Telefono">
-                        <input type="text" name="subject" placeholder="Asunto" data-translate="Asunto">
-                    </div>
-                    <textarea name="message" id="" cols="30" rows="10" placeholder="Tu Mensaje" data-translate="TuMensaje"></textarea>
-                    <input type="submit" value="Enviar Mensaje" class="btn" data-translate="EnviarMensaje">
-                </form>                
+        <form method="post" action="https://formspree.io/f/xqknjqyz">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Nombre Completo" data-translate="NombreCompleto">
+                <input type="email" name="_replyto" placeholder="E-mail" data-translate="Email">
+            </div>
+            <div class="input-box">
+                <input type="tel" name="phone" placeholder="Teléfono" data-translate="Telefono">
+                <input type="text" name="subject" placeholder="Asunto" data-translate="Asunto">
+            </div>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Tu Mensaje"
+                data-translate="TuMensaje"></textarea>
+            <input type="submit" value="Enviar Mensaje" class="btn" data-translate="EnviarMensaje">
+        </form>
     </section>
 
     <!-- footer design -->
@@ -267,7 +269,7 @@
     <script src="js/scroll-reveal.js"></script>
     <script src="js/theme.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/languages.js"></script>
+    <!-- <script src="js/languages.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
